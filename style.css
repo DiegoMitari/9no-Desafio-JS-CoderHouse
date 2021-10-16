@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    padding: 2%;
+    height: 90vh;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition:  300ms all;
+}
+
+header {
+    background-color: rgb(50, 216, 245);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+header button {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 8px;
+    border: none;
+    background: transparent;
+}
+
+header button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+main {
+
+    width: 85%;
+    margin: 0px auto;
+}
+
+main h1 {
+    font-size: 40px;
+}
+
+main blockquote {
+    font-size: 18px;
+    padding: 15px;
+    background-color: rgb(205, 206, 204);
+    border-left: solid 5px rgb(177, 177, 176);
+}
+
+
+.darkmode {
+    background-color: rgb(32, 32, 44);
+    color: whitesmoke;
+}
+
+.darkmode blockquote {
+    color: white;
+    background-color: rgb(52, 52, 71);
+
+}
